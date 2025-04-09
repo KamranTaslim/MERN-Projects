@@ -1,0 +1,33 @@
+{
+  "name": "mern-projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+   "start": "node server.js",
+   "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamranTaslim/MERN-Projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamranTaslim/MERN-Projects/issues"
+  },
+  "homepage": "https://github.com/KamranTaslim/MERN-Projects#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^6.10.0",
+    "twilio": "^5.5.2"
+  }
+}
